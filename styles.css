@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(14, 0, 78);
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    text-size-adjust: 80%; /* Changed to percentage */
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); /* Added a shadow */
+    font-size: 60px; /* Changed to font-size */
+    color: rgb(255, 255, 255);
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project {
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    padding: 30px 20px;
+    background: rgb(0, 0, 0); /* Pick a color */
+    border-radius: 25%;
+}
+
+.project img {
+    align-items: center;
+    width: 100px;
+    margin: 10px auto; /* Combined margin properties */
+    border: 2px solid rgb(255, 255, 255); /* Choose a color */
+    display: block;
+}  
